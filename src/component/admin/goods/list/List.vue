@@ -1,12 +1,13 @@
 
 <template>
     <!-- vbase快捷  v    -->
+    <!-- vbase快捷  v    -->
     <!-- 商品列表 -->
     <div class="list">
         <!-- 面包屑导航=>一层一层往下的关系 -->
-        <el-breadcrumb separator="/">
+        <el-breadcrumb separator-class="el-icon-arrow-right">
             <el-breadcrumb-item :to="{ path: '/' }">首页</el-breadcrumb-item>
-            <el-breadcrumb-item>活动管理</el-breadcrumb-item>
+            <el-breadcrumb-item>管理</el-breadcrumb-item>
             <el-breadcrumb-item>活动列表</el-breadcrumb-item>
             <el-breadcrumb-item>活动详情</el-breadcrumb-item>
         </el-breadcrumb>

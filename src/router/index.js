@@ -32,7 +32,7 @@ export default new VueRouter({
         { name: 'login', path: '/login', component: Login },
 
         // 后台管理
-        //后台管理
+        
         //{ name: 'admin', path: '/admin', component: Admin, children: [...shopcart] },
         { name: 'admin', path: '/admin', component: Admin, children:[...goods] },  //三点运算符，展开数组每一项
     ]
