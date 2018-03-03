@@ -1,0 +1,9 @@
+html,
+body {
+  height: 100%;
+}
+a {
+  text-decoration: none;
+  /* 去除a标签的默认下划线 */
+  color: #fff;
+}
